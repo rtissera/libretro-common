@@ -14,14 +14,14 @@
 #define __CDROM_H__
 
 #include <stdint.h>
+#include <libchdr/chdconfig.h>
 
 /***************************************************************************
     CONSTANTS
 ***************************************************************************/
 
 /* tracks are padded to a multiple of this many frames */
-#define CD_TRACK_PADDING        (4)
-
+#define CD_TRACK_PADDING   	(4)
 #define CD_MAX_TRACKS           (99)    /* AFAIK the theoretical limit */
 #define CD_MAX_SECTOR_DATA      (2352)
 #define CD_MAX_SUBCODE_DATA     (96)
